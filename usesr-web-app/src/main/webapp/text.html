@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Fraud Detection System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>AI Fraud Detection System</h1>
+            <p>Enter details below to check for fraudulent activity.</p>
+        </header>
+
+        <form id="fraud-form">
+            <div class="form-group">
+                <label for="transaction-id">Transaction ID:</label>
+                <input type="text" id="transaction-id" name="transaction-id" required>
+            </div>
+            <div class="form-group">
+                <label for="amount">Amount (USD):</label>
+                <input type="number" id="amount" name="amount" required>
+            </div>
+            <div class="form-group">
+                <label for="user-location">User Location:</label>
+                <input type="text" id="user-location" name="user-location" required>
+            </div>
+            <div class="form-group">
+                <label for="device">Device Used:</label>
+                <input type="text" id="device" name="device" required>
+            </div>
+            <button type="button" onclick="detectFraud()">Check for Fraud</button>
+        </form>
+
+        <div id="result">
+            <h3>Fraud Detection Result:</h3>
+            <p id="fraud-status">Please enter transaction details to check.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+/html>

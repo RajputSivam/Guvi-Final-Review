@@ -1,0 +1,13 @@
+import com.user.dao.UserDAO;
+
+class UserDaoTest  {
+	UserDAO userDAO=new UserDAO();
+	
+	void selectUser_testcase1()
+	{
+		User user=userDAO.selectUser(1)
+	}
+	
+	
+
+}

@@ -1,0 +1,15 @@
+function  loginValidation()
+{
+	const email=document.getElementsById("email").value;
+	const password=document.getElementsById("password").value;
+
+	    if (email==="" || !email.includes("@"))
+		{
+			alert ('invalid email!!');		
+		}
+		if (password==="" )
+			{
+				alert ('invalid password!!');		
+			}
+	
+}

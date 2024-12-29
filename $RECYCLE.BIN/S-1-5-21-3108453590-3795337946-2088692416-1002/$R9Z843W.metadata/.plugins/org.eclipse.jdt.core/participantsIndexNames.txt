@@ -1,0 +1,11 @@
+INDEX VERSION 1.134
+D:\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1950447313.index
+\user-web-app\src\main\resources
+D:\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\763091107.index
+\userwebapp\src\main\resources
+D:\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2762452046.index
+\userweb-app\src\main\resources
+D:\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3409280985.index
+\Ai_fraud_detection\src\main\java
+D:\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\433926908.index
+\user-web-app\src\main\resources
